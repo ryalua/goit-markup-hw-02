@@ -1,0 +1,84 @@
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --button-white-bcg: #F5F4FA;
+    --button-text-color: #FFFFFF;
+}
+
+body {
+    background-color:#FFFFFF ;
+    color: var(--primery-text-color);
+    font-family:'Roboto';
+}
+.list {
+    list-style: none;
+    text-decoration:none;
+}
+
+/* Logo */
+.logo-header {
+    color: #000;
+}
+.logo-footer {
+    background-color:#2F303A;
+    color:#FFFFFF ;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+
+
+/* Nav header */
+.link {
+    color: var(--title-text-color);
+}
+.link:hover, 
+.link:focus {
+    color: var(--accent-color);
+}
+.link-current {
+    color: var(--accent-color);
+}
+
+/* Hero h1*/
+.hero-title {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+/* Section h2*/
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Feature h3*/
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Team h3*/
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--button-primery-bcg);
+
+}
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+}
+    
+
+.button-primary {
+    color: var(--title-text-color);
+    background-color: var(--button-white-bcg);
+}
+.button-secondary {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+}
