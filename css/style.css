@@ -102,7 +102,6 @@ body {
 }
 .link .text {
     color: var(--primery-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
@@ -117,7 +116,6 @@ body {
 }
 .feature-list .text,
 .link .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -131,7 +129,6 @@ body {
     text-align: center;
 }
 .team-list .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -144,6 +141,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
 }
 .button:hover,
 .button:focus {
