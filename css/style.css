@@ -7,9 +7,10 @@
 }
 
 body {
-    background-color:#FFFFFF ;
+    background-color:#F5F5F5;
     color: var(--primery-text-color);
-    font-family:Roboto, sans-serif;
+    font-family:Roboto, sans-serif; 
+    letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
@@ -20,10 +21,22 @@ body {
 .logo-header {
     color: #000;
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+/* identical to box height */
+letter-spacing: 0.03em;
+
+
 }
 .logo-footer {
     background-color:#2F303A;
     color:#FFFFFF ;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-web {
     color: var(--accent-color);
@@ -31,6 +44,18 @@ body {
 
 
 /* Nav header */
+.nav-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.com-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .link {
     color: var(--title-text-color);
 }
@@ -46,28 +71,59 @@ body {
 .hero-title {
     background-color: #000;
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Section h2*/
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
-/* Feature h3*/
+/* Feature h3, p*/
 .feature-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+}
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
-/* Team h3*/
+/* Team h3, p*/
 .team-list .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 /* Button */
 .button {
     color: var(--title-text-color);
     background-color: var(--button-primery-bcg);
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 .button:hover,
 .button:focus {
