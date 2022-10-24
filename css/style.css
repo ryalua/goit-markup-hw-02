@@ -57,6 +57,7 @@ body {
 }
 .link {
     color: var(--title-text-color);
+    text-decoration:none;
 }
 .link:hover, 
 .link:focus {
@@ -64,6 +65,7 @@ body {
 }
 .link-current {
     color: var(--accent-color);
+    text-decoration:none;
 }
 
 /* Hero h1*/
