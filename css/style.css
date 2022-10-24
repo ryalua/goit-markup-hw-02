@@ -60,7 +60,11 @@ body {
     text-decoration:none;
 }
 .nav-header .link:hover, 
-.nav-header .link:focus {
+.nav-header .link:focus,
+.com-header .link:hover,
+.com-header .link:focus,
+.com-footer .link:hover,
+.com-footer .link:focus {
     color: var(--accent-color);
 }
 .link-current {
@@ -81,7 +85,7 @@ body {
 }
 
 /* Section h2*/
-.section-title {
+.section .section-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -89,14 +93,18 @@ body {
     text-align: center;
 }
 .link .section-title {
-    color:#212121 ;
+    color:var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: left;
 }
 .link .text {
-    
+    color: var(--primery-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 /* Feature h3, p*/
