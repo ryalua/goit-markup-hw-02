@@ -88,6 +88,16 @@ body {
     line-height: 1.17;
     text-align: center;
 }
+.link .section-title {
+    color:#212121 ;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.link .text {
+    
+}
 
 /* Feature h3, p*/
 .feature-list .title {
@@ -97,7 +107,8 @@ body {
     line-height: 1,14;
     text-transform: uppercase;
 }
-.feature-list .text {
+.feature-list .text,
+.link .text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
