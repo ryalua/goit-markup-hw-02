@@ -9,7 +9,7 @@
 body {
     background-color:#FFFFFF ;
     color: var(--primery-text-color);
-    font-family:'Roboto';
+    font-family:Roboto, sans-serif;
 }
 .list {
     list-style: none;
@@ -19,6 +19,7 @@ body {
 /* Logo */
 .logo-header {
     color: #000;
+    font-family: Roleway, sans-seri;
 }
 .logo-footer {
     background-color:#2F303A;
