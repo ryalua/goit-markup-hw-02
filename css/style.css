@@ -53,6 +53,10 @@ body {
 .nav-header .link:hover, 
 .nav-header .link:focus {
     color: var(--accent-color);
+} 
+.com-header .link:hover,
+.com-header .link:focus {
+    color: var(--accent-color);
 }
 .link-current {
     color: var(--accent-color);
@@ -102,6 +106,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: left;
 }
 
 /* Feature h3, p*/
@@ -175,4 +180,8 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+}
+.com-footer .link:hover,
+.com-footer .link:focus {
+    color: var(--accent-color);
 }
