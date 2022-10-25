@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:#F5F5F5;
+    background-color:#FFFFFF;
     color: var(--primery-text-color);
     font-family:Roboto, sans-serif; 
     letter-spacing: 0.03em;
@@ -20,15 +20,6 @@ body {
 /* Logo */
 .logo-header {
     color: #000;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration:none;
-}
-.logo-footer {
-    background-color:#2F303A;
-    color:#FFFFFF ;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -60,21 +51,24 @@ body {
     text-decoration:none;
 }
 .nav-header .link:hover, 
-.nav-header .link:focus,
-.com-header .link:hover,
-.com-header .link:focus,
-.com-footer .link:hover,
-.com-footer .link:focus {
+.nav-header .link:focus {
     color: var(--accent-color);
 }
 .link-current {
     color: var(--accent-color);
     text-decoration:none;
 }
+.com-header,
+.com-footer {
+    color: var(--primery-text-color);
+}
+
 
 /* Hero h1*/
+.hero {
+    background-color:#2F303A ;
+}
 .hero-title {
-    background-color: #000;
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -83,9 +77,20 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+.button-hero {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
 
 /* Section h2*/
-.section .section-title {
+.section-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -93,17 +98,11 @@ body {
     text-align: center;
 }
 .link .section-title {
-    color:var(--title-text-color);
+    color:#212121 ;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-align: left;
-}
-.link .text {
-    color: var(--primery-text-color);
-    font-size: 16px;
-    line-height: 1.88;
 }
 
 /* Feature h3, p*/
@@ -116,6 +115,7 @@ body {
 }
 .feature-list .text,
 .link .text {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -129,6 +129,7 @@ body {
     text-align: center;
 }
 .team-list .text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -137,15 +138,37 @@ body {
 /* Button */
 .button {
     color: var(--title-text-color);
-    background-color: var(--button-white-bcg);
+    background-color: var(--button-primery-bcg);
+    font-family: Roboto sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    cursor: pointer;
 }
 .button:hover,
 .button:focus {
-    color: var(--button-text-color);
-    background-color: var(--accent-color);
-    
-
+    color: var(--accent-color);
+}
+/* Footer */
+.bcg-footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    background-color:#2F303A;
+    color:#FFFFFF ;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration:none;
+}
+.addr-footer {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.com-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+}
