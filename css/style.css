@@ -77,14 +77,12 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.button-hero {
+.hero .button-hero {
     background-color: #2196F3;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -153,7 +151,7 @@ body {
     background-color: #2F303A;
 }
 .logo-footer {
-    background-color:#2F303A;
+    /* background-color:#2F303A; */
     color:#FFFFFF ;
     font-family: Raleway, sans-serif;
     font-weight: 700;
