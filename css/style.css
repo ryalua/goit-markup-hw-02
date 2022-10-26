@@ -63,8 +63,7 @@ body {
     color: var(--accent-color);
     text-decoration:none;
 }
-.com-header,
-.com-footer {
+.com-header {
     color: var(--primery-text-color);
 }
 
