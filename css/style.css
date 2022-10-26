@@ -5,6 +5,8 @@
     --button-white-bcg: #F5F4FA;
     --button-text-color: #FFFFFF;
     --hero-footer-bcg: #2F303A;
+    --logo-heder-color: #000;
+    --com-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -20,7 +22,7 @@ body {
 
 /* Logo */
 .logo-header {
-    color: #000;
+    color: var(--logo-heder-color):
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -63,9 +65,9 @@ body {
     color: var(--accent-color);
     text-decoration:none;
 }
-.com-header {
+.com-header .link {
     color: var(--primery-text-color);
-}
+} 
 
 
 /* Hero h1*/
@@ -182,7 +184,7 @@ body {
     line-height: 1.71;
 }
 .com-footer .link {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--com-footer-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
